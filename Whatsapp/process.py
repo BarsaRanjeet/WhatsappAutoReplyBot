@@ -16,7 +16,7 @@ def process_message(message):
         payload = "SessionID=RapidAPI1&in={}&op=in&cbid=1&cbot=1&ChatSource=RapidAPI&key=RHMN5hnQ4wTYZBGCF3dfxzypt68rVP".format(qt_message)
         headers = {
             'content-type': "application/x-www-form-urlencoded",
-            'x-rapidapi-key': "0b5aecd98emshcd88d6a68b53e49p10edc8jsn182d65fecc8f",
+            'x-rapidapi-key': "insert your key here",
             'x-rapidapi-host': "robomatic-ai.p.rapidapi.com"
         }
         response = requests.request("POST", url, data=payload, headers=headers)
